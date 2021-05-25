@@ -1,0 +1,8 @@
+Пример названия папки
+
+2021_web_telran_20E
+2021-web-telran-20E
+2021webTelran20E
+
+camelCase.java
+php-kebab-case
