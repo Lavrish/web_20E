@@ -1,0 +1,45 @@
+body {
+  background-color: bisque;
+  font-size: 50px;
+  width: 80%;
+}
+
+section {
+  width: 600px;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+table {
+  border: 5px solid beige;
+  background-color: coral;
+  font-size: 100px;
+}
+
+.table-01 {
+  border: 10px red dotted;
+}
+
+td {
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+
+.first-line {
+  background-color: oldlace;
+}
+.second-line {
+  background-color: cyan;
+}
+img {
+  margin-top: 30px;
+  margin-left: 30px;
+  /*   width: 350px; */
+  height: 350px;
+  border: yellow 5px solid;
+  border-radius: 50%;
+}
+
+p {
+  color: blue;
+}

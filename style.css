@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  color: #179bd6;
+  font-size: 35px;
+}
+
+.main {
+  background: rgba(255, 253, 163, 0.2);
+  font-family: "Oswald", sans-serif;
+}
+
+.round {
+  border-radius: 15px;
+  border: 2px solid yellow;
+}
+
+.secondary {
+  background-image: url(white-columns.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
