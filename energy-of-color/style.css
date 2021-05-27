@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  padding: 100px 0 100px 100px;
+  margin-top: 20px;
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cc54848d24ec5cb1be8c9d83/874-min.jpg");
+  background-size: cover;
+  background-position: right top;
+}
+
+.wrapper {
+  width: 50%;
+  /*   margin: 0 auto; */
+}
+
+.mini-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  color: #111;
+  letter-spacing: 8px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.color-title {
+  color: rgb(23, 155, 214);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.description a {
+  font-style: normal;
+  text-decoration: none;
+  color: rgb(23, 155, 214);
+  font-weight: 500;
+}
+
+.my-lovely-button {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(23, 155, 214);
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}

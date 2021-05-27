@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Итого</title>
+    <style type="text/css">
+        table, td, th {
+            border: 1px solid black;
+        }
+        table {
+            width: 100%;
+        }
+        .column1 {
+            width: 40%;
+        }
+        th {
+            text-align: center;
+        }
+        .doublecell {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Сводная таблица с данными</caption>
+        <tr>
+            <th class='column1'></th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+        <tr>
+            <td>Золото</td>
+            <td rowspan='2'>5643</td>
+            <td>4533</td>
+            <td>7897</td>
+        </tr>
+        <tr>
+            <td>Бриллианты</td>
+            <td>31234</td>
+            <td>5432</td>
+        </tr>
+        <tr>
+            <td>Валюта</td>
+            <td>43533</td>
+            <td colspan='2' class='double_cell'>34533</td>
+        </tr>
+    </table>
+</body>
+</html>
