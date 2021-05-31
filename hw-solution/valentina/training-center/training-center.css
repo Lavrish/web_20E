@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=PT+Sans:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  margin-top: 20px;
+  padding-top: 10%;
+  padding-left: 60%;
+  padding-right: 15%;
+  background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/cdf7444d030e541f8dbca0fc/16951-min.jpg");
+  background-size: contain;
+  background-position: 0 50%;
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+}
+
+.mini-title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #3870bb;
+  font-size: 3.75rem;
+  letter-spacing: normal;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 30px;
+}
+
+.content {
+  font-size: 1.125rem;
+  margin-bottom: 25px;
+}
+
+.source {
+  margin-bottom: 50px;
+}
+
+.source a {
+  color: black;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-decoration: none;
+}

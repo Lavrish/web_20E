@@ -1,0 +1,68 @@
+body {
+  border: 10px solid skyblue;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 40px 20px;
+  color: blueviolet;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.block1 {
+  background-color: mediumslateblue;
+}
+
+.block2 {
+  width: 70px;
+  background-color: bisque;
+}
+
+.block3 {
+  background-color: coral;
+}
+
+.block4 {
+  height: 250px;
+  width: 500px;
+  background-color: honeydew;
+}
+
+.block5 {
+  width: 70px;
+  background-color: bisque;
+}
+
+.block6 {
+  background-color: orange;
+}
+
+.row1 {
+  background-color: cyan;
+}
+
+.row2 {
+  background-color: gold;
+  height: 120px;
+}
+
+.row3 {
+  background-color: greenyellow;
+  height: 120px;
+}
+
+.row4 {
+  background-color: grey;
+}
+
+.row2 td {
+  width: 25%;
+}

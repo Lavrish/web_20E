@@ -1,0 +1,40 @@
+header {
+    background-color: #a5a5a5;
+    color: white;
+    font-size: 30px;
+    height: 100px;
+    border: yellow 5px ridge;
+}
+
+aside {
+    background-color: #e7a8a8;
+    font-size: 20px;
+    width: 150px;
+    border: red 5px ridge;
+    height: 80vh;
+}
+
+
+img {
+    width: 250px;
+    border: green dashed 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer {
+    background-color: beige;
+    border: red 5px ridge;
+}
+
+.clear {
+    clear: both;
+}

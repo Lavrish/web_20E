@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700;900&display=swap");
+
+.main {
+  height: 100vh;
+  margin-top: 20px;
+  background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/060307c9979a596fa8c3a36d/pexelsphoto2208836.jpeg);
+  background-size: 50%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  padding: 15% 130px;
+  padding-right: 50%;
+}
+.wrapper {
+  margin-right: 120px;
+}
+
+.mini-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: rgb(241, 197, 14);
+  font-family: Roboto, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 65px;
+}
+
+.button {
+  background-color: rgb(241, 197, 14);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

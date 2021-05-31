@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* no image */
+.header{
+    margin-top: 80px;
+    margin-left: -1%;
+    padding: 55px;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/0a9aa50403bf5f86a37cfd86/ty.jpg);
+    height: 55vh;
+    background-size: cover;
+
+}
+
+.wrapper{
+    width: 37%;
+    margin-left: 52%;
+}
+
+.mini-title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #111;
+    letter-spacing: 5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+.color-title{
+    color: rgb(56, 112, 187);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 52.8px;
+}
+
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+    line-height: 28,8px;
+    margin-top: 20px;
+    text-align: left;
+    margin-block-start: 20px;
+}
+
+.creators a{
+    font-style: normal;
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    line-height: 25.6px;
+    
+    
+}
