@@ -1,6 +1,5 @@
-html {
-    /*font-family: "Lucida Sans", sans-serif;*/
-    font-family: "Times New Roman", Times, serif;
+* {
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,31 +8,153 @@ html {
     --primary-bg-color: #33b5e5;
     --secondary-bg-color: #0099cc;
 }
-.wrapper{
+
+html {
+    /*font-family: "Lucida Sans", sans-serif;*/
+    font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.header{
+.header {
     background-color: var(--main-bg-color);
     color: white;
     padding: 15px;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.menu li{
+.menu li {
     padding: 8px;
     margin-bottom: 7px;
     background-color: var(--primary-bg-color);
     color: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-.menu li:hover{
+
+.menu li:hover {
     background-color: var(--secondary-bg-color);
 }
 
+.faq {
+    background-color: var(--primary-bg-color);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    background-color: var(--secondary-bg-color);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.right {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Для десктопов: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*Печать*/
+@media print {
+    aside, footer, header {
+        display: none;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    main {
+        font-family: Georgia, serif;
+        font-size: 20px;
+    }
+
+    img {
+        width: 50px !important;
+    }
+}
+
+/*Для мобильных телефонов*/
+
+@media only screen and (max-width: 768px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/*Mobile first*/
