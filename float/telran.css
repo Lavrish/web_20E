@@ -1,0 +1,39 @@
+html {
+    /*font-family: "Lucida Sans", sans-serif;*/
+    font-family: "Times New Roman", Times, serif;
+}
+
+:root {
+    --main-bg-color: brown;
+    --header-bg-color: #EB7971;
+    --primary-bg-color: #33b5e5;
+    --secondary-bg-color: #0099cc;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: 15px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: var(--primary-bg-color);
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.menu li:hover{
+    background-color: var(--secondary-bg-color);
+}
+
