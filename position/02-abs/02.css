@@ -1,0 +1,26 @@
+* {
+    font-size: 30px;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+    /*position: absolute;*/
+}
+
+p {
+    background-color: aqua;
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+main{
+    position: relative;
+}
+.position-absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+}

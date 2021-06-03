@@ -7,9 +7,10 @@ body {
     --secondary-color: cadetblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .wrapper {
-    width:1300px;
-    margin:0 auto;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 
@@ -17,8 +18,9 @@ body {
     width: 200px;
     float: right;
     text-align: left;
-   
+
 }
+
 .nav {
     float: right;
     width: 200px;
@@ -27,12 +29,13 @@ body {
     padding: 10px;
     border-radius: 7px;
     box-shadow: 2px 3px 8px 0px #000000;
-    
+
 }
+
 .info {
     width: 200px;
     float: right;
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
     padding: 10px;
     margin-top: 20px;
     border-radius: 7px;
@@ -47,75 +50,81 @@ body {
     background-color: var(--primary-color);
     border-radius: 7px;
     box-shadow: 2px 3px 8px 0px #000000;
-   
+
 }
 
 .right {
     float: right;
-    
+
 }
 
 section {
-    
+
     padding: 0;
     margin: 0;
     height: 200px;
-   }
+}
 
 
-.left { 
+.left {
     float: left;
     margin-right: 10px;
-    
-   }
-   .clearfix::after { 
+
+}
+
+.clearfix::after {
     content: '';
-    clear: both; 
+    clear: both;
     display: block;
-   }
+}
 
 .bottom {
     margin-top: -30px;
 }
+
 img {
     width: 250px;
     border-radius: 7px;
     border: solid var(--secondary-color);
     filter: grayscale(0);
     transition: 0.5s;
-  }
+}
+
 img:hover {
     cursor: pointer;
     filter: grayscale(1);
 }
- 
+
 
 /* Я в затруднении, как убрать флоат с текста */
 
 
 @media only screen and (max-width: 500px) {
-   
-     .wrapper {
-         width:500px;
-         margin:0 auto;
-     }
-     .content {
-         width: 400px;
-         height: 1000px;
-     }
-    
-     .right-nav {
-         float: unset;
-         display: inline-block;
-        
-     }
-   .left {
-       float: unset;
-   }
-   .right {
-    float: unset;
-}
 
-     }
+    .wrapper {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 400px;
+        height: 1000px;
+    }
+
+    .right-nav {
+        float: unset;
+        display: inline-block;
+
+    }
+
+    .left {
+        float: unset;
+    }
+
+    .right {
+        float: unset;
+    }
+
+}
  
  

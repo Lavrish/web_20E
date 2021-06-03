@@ -1,0 +1,34 @@
+/* Устройства с экраном 1200 и выше!*/
+@media screen and (min-width: 1200px) {
+    main.main{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .box:nth-child(3n) {
+        background-color: red;
+    }
+
+    .box:nth-child(3n+1) {
+        background-color: blue;
+    }
+
+    .box:nth-child(3n+2) {
+        background-color: yellow;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    div.col-large-4 {
+        box-sizing: border-box;
+        width: 33%;
+
+    }
+
+}

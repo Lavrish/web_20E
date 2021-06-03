@@ -1,0 +1,14 @@
+/* Устройства с экраном 768 и выше! до 992 если мы делаем вторую точку на 992*/
+@media screen and (min-width: 768px) {
+    .box:nth-child(3n) {
+        background-color: yellow;
+    }
+
+    .box:nth-child(3n+1) {
+        background-color: black;
+    }
+
+    .box:nth-child(3n+2) {
+        background-color: red;
+    }
+}

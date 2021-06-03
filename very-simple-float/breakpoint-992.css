@@ -1,0 +1,15 @@
+/* Устройства с экраном 992 и выше! до 1200 если мы делаем третью точку на 1200*/
+@media screen and (min-width: 992px) {
+    .box:nth-child(3n) {
+        background-color: white;
+    }
+
+    .box:nth-child(3n+1) {
+        background-color: white;
+    }
+
+    .box:nth-child(3n+2) {
+        background-color: red;
+    }
+
+}

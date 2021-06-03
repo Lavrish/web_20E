@@ -1,0 +1,5 @@
+@media print {
+    main.main div.box {
+        background-color: white;
+    }
+}
