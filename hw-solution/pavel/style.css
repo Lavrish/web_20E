@@ -1,0 +1,85 @@
+
+
+html{
+    font-family: 'Mate SC', serif;
+  
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 242, 207);
+    
+}
+
+.content{
+    background-color: rgba(81, 172, 152, 0.856);
+    border: rgb(235, 151, 151) 4px ridge;
+    width: 75%;
+    border-radius: 15px;
+    float: left;
+    padding: 15px;
+}
+
+.right{
+    border-style: solid;
+    border-radius: 15px;
+    border: rgb(235, 151, 151) 4px ridge;
+    background-color: rgb(230, 182, 78);
+    background-size: 20px 30px 20px 30px;
+    font-size: 15px;
+    width: 22%;
+    float: right;
+    padding: 15px;
+    
+}
+
+
+}
+
+
+.faq1{
+    margin-top: 100px;
+     
+    
+}
+
+img{
+    font-size: 15px;
+    width: 200px;
+    border: rgb(235, 151, 151) double 5px;  
+    border-radius: 15px;
+    width: 220px;
+    
+    
+}
+
+.img1{
+    float: left;
+    margin-right: 15px;
+}
+
+.img2{
+    float: right;
+    margin-left: 15px;
+}
+
+.img3{
+    float: left;
+    width: 280px;
+    margin-right: 15px;
+}
+
+ul{
+    padding-left: 60px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
