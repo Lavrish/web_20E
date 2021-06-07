@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+}
+
+.shop {
+    order: 1;
+}
+
+.home {
+    order: 2;
+}
+
+.search {
+    order: 3;
+}

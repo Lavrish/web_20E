@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*Позиционное выравнивание*/
+/*https://developer.mozilla.org/ru/docs/Web/CSS/justify-content*/
+/*justify-content: center;*/
+/*justify-content: flex-start;*/
+/*justify-content: space-around;*/
+

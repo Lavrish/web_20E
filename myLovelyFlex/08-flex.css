@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+}
+
+/*.home{*/
+/*    flex-basis: 200px;*/
+/*    flex-grow: 1;*/
+/*}*/
+/*Сделайте жадность 5,
+сделайте 4 итема*/
+.shop {
+    flex-grow: 1; /*0*/
+    flex-shrink: 1; /*1*/
+    flex-basis: 0; /*0*/
+}
+
+.search {
+    flex: 1 5 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.contact {
+    flex: 5 5 0;
+}

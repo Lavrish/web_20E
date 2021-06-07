@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-wrap: nowrap;*/
+}
+
+div{
+    width: 200px;
+}

@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    height: 80vh;
+
+    align-items: center;
+    justify-content: center;
+}
+/*html,body{*/
+/*    height: 100%;*/
+/*}*/
+
+/*align-items: center;*/
+/*justify-content: center;*/
+/*flex-direction: row;*/
+
+.contact{
+    align-self: start;
+}
+.home{
+    align-self: end;
+}
+.shop {
+    align-self: flex-end;
+}

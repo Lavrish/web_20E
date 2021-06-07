@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    /*font-size: 3;*/
+    flex-direction: column;
+}
+
+.search {
+    flex: 1;
+}
+
+@media all and (min-width: 400px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .search {
+        order: 1;
+    }
+}
+
+@media all and (min-width: 700px) {
+    nav.menu {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+/*@import "01-flex.css" screen and (min-width: 500px);*/
+/*@import "02-flex.css" screen and (min-width: 500px);*/
+/*@import "03-flex.css" screen and (min-width: 500px);*/
+/*@import "04-flex.css" screen and (min-width: 500px);*/
+/*@import "05-flex.css" screen and (min-width: 500px);*/
+/*@import "06-flex.css" screen and (min-width: 500px);*/
+/*@import "07-flex.css" screen and (min-width: 100px);*/
+/*@import "08-flex.css" screen and (min-width: 100px);*/
+/*@import "09-flex.css" screen and (min-width: 500px);*/
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FFEEAD;
+    margin: 1rem;
+}
+
+nav {
+    border: solid 3px #FFCC5B;
+    font-size: 4rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    color: #FFEEAD;
+}
+
+nav > div {
+    padding: 0 1rem;
+}
+
+nav > div:nth-child(even) {
+    background-color: #96ceb4;
+}
+
+nav > div:nth-child(odd) {
+    background-color: #ff6f69;
+}

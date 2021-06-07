@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+}
+
+div {
+    /*width: 25%;*/
+    flex: 1;
+}
+
+.search {
+    flex: 3;
+}
+
+.contact {
+    flex: 2;
+}
+
+/*flex, flex-grow, flex-shrink, flex-basis*/

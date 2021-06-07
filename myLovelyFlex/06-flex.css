@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    align-items: center;
+}
+/*flex direction*/
+
+.contact{
+    align-self: start;
+    justify-self: center;
+}

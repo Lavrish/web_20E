@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main > div > img {
+    /*width: 160px;*/
+    /*height: 120px;*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main > .normal{
+    flex: 1 1 150px;
+}
+
+.main > .big{
+    flex: 1 1 250px
+}

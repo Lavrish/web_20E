@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Main axis and cross axis*/
+/*Flex direction*/
+/*1. flex-direction: row;*/
+/*flex-direction: row-reverse;*/
+/*flex-direction: column-reverse;*/
+/*flex-direction: column;*/
+
+
