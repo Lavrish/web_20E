@@ -1,0 +1,123 @@
+
+body {
+    background-color: rgb(230, 226, 220);
+    
+    box-sizing: border-box;
+    --primary-color: burlywood;
+    --secondary-color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper {
+    
+    max-width:1300px;
+    margin:0 auto;
+}
+.content {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    box-shadow: 2px 3px 8px 0px #000000;
+   
+}
+.right {
+    float: right;   
+}
+
+.left { 
+    float: left;
+    margin-right: 10px;
+   }
+
+.right-nav {
+    width: 20%;
+    float: right;
+    text-align: left;
+    margin-top: 40px;
+   
+}
+
+.nav {
+    width: 200px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 8px 0px #000000;
+    
+}
+.info {
+    width: 200px;
+    background-color:var(--secondary-color);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 8px 0px #000000;
+}
+
+img {
+    width: 250px;
+    border-radius: 7px;
+    border: solid var(--secondary-color);
+    filter: grayscale(0);
+    transition: 0.5s;
+  }
+img:hover {
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+ footer {
+     clear: both;
+     padding-top: 10px;
+ }
+
+
+@media only screen and (max-width: 500px) {
+   
+     .wrapper {
+         width:100%;
+         margin:0 auto;
+     }
+     .content {
+         width: 90%;
+         
+     }
+    .nav {
+        float: none;
+    }
+    .info {
+        float: none;
+    }
+     .right-nav {
+        float: left; 
+     }
+ 
+
+     }
+ 
+     @media only screen and (max-width: 700px) {
+   
+        .wrapper {
+            width:100%;
+            margin:0 auto;
+        }
+        .content {
+            width: 90%;
+            
+        }
+       .nav {
+           float: none;
+       }
+       .info {
+           float: none;
+       }
+        .right-nav {
+            float: left;
+        }
+    
+   
+        }
+
+  

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400&display=swap');
+@import "design-mobile.css" screen and (max-width: 1280px);
+
+:root{
+    --image-width: 1200px;
+}
+
+main{
+    font-family: Roboto, sans-serif;
+    position: absolute;
+}
+
+.realestate{
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 80%;
+    left: 180px;
+    top: 150px;
+    z-index: 1;
+}
+
+.villapic{
+    position: relative;
+    z-index: 0;
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/73f94dd52f8f56d096912f75/01.jpg");
+    background-size: cover;
+    width: var(--image-width);
+    height: calc(var(--image-width) / 14 * 9);
+    box-shadow: 4px 3px 32px -3px rgba(0,0,0,0.86);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    display: inline-block;
+    left: 300px;
+    top: 100px;
+}
+
+.villatext{
+    position: relative;
+    font-weight: 400;
+    font-size: calc((var(--image-width) / 16 * 9) / 31);
+    color: white;
+    width: calc(var(--image-width) / 4);
+    left: calc(var(--image-width) / 1.35);
+    top: calc(var(--image-width) / 2.28);
+}
+
+.textpic{
+    position: absolute;
+    z-index: 0;
+}
+
+.backgroundbox{
+    background-color: #34421E;
+    position: absolute;
+    width: 1550px;
+    height: 800px;
+    left: -10px;
+    top: 50px;
+    z-index: -1;
+}
+
+.foregroundbox{
+    background-color: #C19434;
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 200px;
+    left: 230px;
+}
+
+.smallpic{
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: 80%;
+    left: -50px;
+    top: 7%;
+    margin: 5px;
+}
+
+.smallpic1{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/50ac257d00fc5a65a23a6402/1.jpg");
+}
+
+.smallpic2{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/141ac024456b585dbfd32f82/Untitled1.jpg");
+}
+
+.smallpic3{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ecae0d40d27a54499f983d9a/2.jpg");
+}

@@ -1,0 +1,10 @@
+dt.desktop{
+    width: 40%;
+    border-radius: 0 10px 10px 0;
+    font: bold 25px/30px Helvetica, Arial, sans-serif;
+}
+
+dd.desktop{
+    width: 40%;
+    font: bold 18px/30px Helvetica, Arial, sans-serif;
+}

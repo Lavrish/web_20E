@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper {
+            position: static;
+            height: 90vh;
+            border: 3px solid blue;
+        }
+        
+        div.absolute {
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            border: 3px solid green;
+            bottom: 100px;
+            left: 100px;
+        }
+        
+        div.second {
+            position: absolute;
+            top: 80px;
+            right: 50px;
+            width: 200px;
+            height: 100px;
+            border: 3px solid orange;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <h2>position; absolute</h2>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto, asperiores aut corporis
+            debitis dignissimos eligendi excepturi harum in, natus necessitatibus neque nulla omnis praesentium quas
+            reiciendis sed similique soluta!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <div class="absolute"> Всё в мире абсолютно!!!
+            <div class="second">This div is absolute</div>
+        </div>
+    </div>
+
+</body>
+</html>

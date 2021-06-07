@@ -1,0 +1,37 @@
+body {
+    color: #a71414;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid green;
+    padding: 10px;
+    background: white;
+}
+
+.main-container * {
+    padding: 10px;
+    background: white;
+    border: dashed 5px #000;
+}
+
+.main-header, .main-footer {
+    height: 50px;
+    background: #aaa;
+}
+
+.main-header {
+    border-color: red;
+}
+
+.main-content {
+    min-height: 300vh;
+}
+
+.main-footer {
+    position: sticky;
+    bottom: 0;
+}

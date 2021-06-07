@@ -1,0 +1,47 @@
+.row {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.green {
+    position: absolute;
+    background-color: #34421E;
+    height: 300px;
+    width: 100%;
+}
+
+img.city-villa.left {
+    width: 525px;
+    /*position: absolute;*/
+    top: 30px;
+    right: -30px;
+}
+
+img[alt="city-villa"] {
+    position: absolute;
+}
+
+.title {
+    position: relative;
+    padding-left: 30%;
+    /*-999 до 999*/
+    /*z-index: 1;*/
+    color: white;
+    font-size: 50px;
+    /*display: none;*/
+}
+
+.title-line {
+    display: block;
+}
+
+.description {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    color: white;
+    font-size: 10px;
+}
+
