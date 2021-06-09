@@ -1,0 +1,10 @@
+body{
+    color: beige;
+    font-size: 2.5rem;
+    display: flex;
+    background: linear-gradient(to right, #1c9a1c, #96dc96);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
