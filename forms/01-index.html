@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Формочки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Формочки</h2>
+        <!--        бэм-->
+    </div>
+    <form action="#" method="post" class="registrationTestForm">
+        
+        <h3>Форма логина на наш крутой сайт</h3>
+        
+        <label for="firstname"> Имя пользователя</label>
+        <input type="text" name="firstname" id="firstname" class="registrationTestForm__firstname" placeholder="Erika">
+        
+        <label for="secondName">
+            Фамилия пользователя
+        </label>
+        <input type="text" name="secondName" id="secondName" class="registrationTestForm__secondName"
+               placeholder="Musterfrau">
+        
+        <label for="email">
+            Емайл пользователя
+        </label>
+        <input type="email" name="email" id="email" class="registrationTestForm__email" placeholder="your email sister">
+        <label for="password">
+            password пользователя
+        </label>
+        <input type="password" name="password" id="password"
+               class="registrationTestForm__password">
+        
+        <input type="button" value="MyLovelyButton" class="registrationTestForm__button">
+        
+        <input type="submit" class="registrationTestForm__button" value="Отправить">
+        <input type="reset" class="registrationTestForm__button">
+        <!--        Кнопка с картинками-->
+        <input type="image" src="b1.jpg" alt="help" width="100px">
+        <button>Тест</button>
+        <hr>
+        
+        <!--        color-->
+        <label>
+            Выбор цвета
+            <input type="color" value="#16ffa2">
+        </label>
+    
+        <label for="registrationTestForm__birthday">
+        День рождения
+        </label>
+        <input type="date" name="registrationTestForm__birthday" id="registrationTestForm__birthday" class="registrationTestForm__birthday">
+    
+        <label for="registrationTestForm__checkbox">
+        Чекбокс
+        </label>
+        <input type="checkbox" checked class="registrationTestForm__checkbox" name="registrationTestForm__checkbox" id="registrationTestForm__checkbox">
+    
+        <label for="registrationTestForm__datetime-local">
+            registrationTestForm__datetime-local
+        </label>
+        <input type="datetime-local" name="registrationTestForm__datetime-local" id="registrationTestForm__datetime-local">
+        <input type="month" name="" id="registrationTestForm__month">
+        <input type="week" name="" id="registrationTestForm__week">
+        <input type="time" name="" id="registrationTestForm__time" value="22:25:05">
+    
+        <hr>
+    
+<!--        <input type="file" name="file" id="file" accept=".doc,.docx">-->
+        <input type="file" name="file" id="file" accept=".jpg,.jpeg,.png,.gif">
+        
+        <input type="hidden"  size="25" name="registrationTestForm_email" id="registrationTestForm_email2">
+        <input type="hidden" name="secretID" id="secretID" value="666">
+    
+    </form>
+
+</body>
+</html>

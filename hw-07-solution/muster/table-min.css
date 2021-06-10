@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body,
+section,
+.column-3-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    border: 5px #b6ceee solid;
+    margin: 1rem;
+    color: #7030A0;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    flex: 1;
+    /*border: solid 3px #FFCC5B;*/
+    font-size: 2.7rem;
+    width: 90%;
+    margin: 0 auto;
+    /*padding: .5rem;*/
+    text-align: center;
+}
+
+.column-3-4 {
+    flex: 4;
+}
+
+div {
+    flex: 1;
+}
+
+.item {
+    margin: 1rem;
+    border: 1px solid black;
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    /*min-height: 3.5rem;*/
+}
+
+.item3, .item4 {
+    margin: 0;
+}
+
+.item3 {
+    margin-bottom: 1rem;
+}
+
+.row2 {
+    height: 30vh;
+}
+
+.item1 {
+    background: #4672C4;
+}
+
+.item2 {
+    background: #F7CBAC;
+}
+
+.item3 {
+    background: #CB463F;
+    /*flex: 0;*/
+    flex: 1;
+}
+
+.item4 {
+    background: #E2EFD9;
+    /*flex: 1;*/
+    flex: 5;
+}
+
+.item5 {
+    background: #F7CBAC;
+}
+
+.item6 {
+    background: #BF9000;
+}
+
+.item7 {
+    background: #7EFFFF;
+}
+
+.item8 {
+    background: #7EFFFF;
+}
+
+.item9,
+.item10,
+.item11,
+.item12 {
+    background: #FEE599;
+}
+
+.item13,
+.item14,
+.item15 {
+    background: #A8D08D;
+}
+
+.item16 {
+    background: #A5A5A5;
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        flex-direction: row;
+    }
+}

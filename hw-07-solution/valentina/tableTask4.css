@@ -1,0 +1,152 @@
+body {
+  border: 10px solid skyblue;
+}
+
+.wrapper {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.block {
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 25px;
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 60px;
+}
+.block-1 {
+  background-color: mediumslateblue;
+}
+
+.block-2 {
+  background-color: bisque;
+}
+
+.container3-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.block-3 {
+  background-color: coral;
+}
+
+.block-4 {
+  background-color: honeydew;
+}
+
+.block-5 {
+  background-color: bisque;
+}
+
+.block-6 {
+  background-color: orange;
+}
+
+.row-1 {
+  background-color: cyan;
+}
+
+.row-2 {
+  background-color: gold;
+}
+
+.row-3 {
+  background-color: greenyellow;
+}
+
+.container7-8,
+.container9-12,
+.container13-15 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block-16 {
+  background-color: grey;
+}
+
+@media screen and (min-width: 720px) {
+  .wrapper {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+  .block-1 {
+    width: 100%;
+  }
+
+  .block-2 {
+    width: 15%;
+    height: 500px;
+    align-self: flex-start;
+  }
+
+  .container3-4 {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    gap: 15px;
+  }
+
+  .block-4 {
+    flex: 1;
+  }
+
+  .block-5 {
+    width: 15%;
+    height: 500px;
+    align-self: flex-end;
+  }
+
+  .block-6 {
+    width: 100%;
+  }
+
+  .row-2 {
+    height: 105px;
+  }
+
+  .row-3 {
+    height: 120px;
+  }
+
+  div.container7-8,
+  div.container9-12,
+  div.container13-15 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .block-7,
+  .block-8,
+  .block-9,
+  .block-10,
+  .block-11,
+  .block-12,
+  .block-13,
+  .block-14,
+  .block-15 {
+    flex: 1;
+  }
+
+  .block-16 {
+    width: 100%;
+  }
+}

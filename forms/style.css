@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, #e0e0b0, #dbca7d);
+}
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+input {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.registrationTestForm__button {
+    padding: .5rem;
+    color: white;
+    background-color: black;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.registrationTestForm__button:hover {
+
+    background-color: #429dba;
+}
+
+input {
+    border-radius: 15px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 5px 55px;
+    background-color: #7EFFFF;
+    cursor: pointer;
+    color: #821414;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*.radio__gender {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
