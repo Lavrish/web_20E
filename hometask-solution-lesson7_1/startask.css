@@ -1,0 +1,93 @@
+/* Тело сайта */
+/* шапка */
+
+.header {
+    display: flex;
+    background-color: darkturquoise;
+    border: 2px solid #9400d3;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto 20px;
+    padding: 5px;
+    align-items: center;
+}
+/* логотип */
+
+.logo img {
+    width: 75px;
+    border-radius: 50%;
+}
+/* навигация */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    /* flex-grow: 1; */
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+nav ul li {
+    padding: 5px 15px;
+    background-color: yellow;
+    /* margin: 0 5px; */
+    border-radius: 5px;
+}
+
+/* работа с мэйном */
+
+.main {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.little-img img {
+    width: 150px;
+}
+
+.big-content {
+    width: 300px;
+    /* flex: 1 1 300px; */
+    background-color: dimgray;
+    height: 300px;
+}
+.big-content img {
+    width: 300px;
+    height: 300px;
+}
+
+.left-top {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-side, 
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-side {
+    align-items: flex-end;
+}
+.right-side {
+    align-items: flex-start;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: fuchsia;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 0 0;
+}
