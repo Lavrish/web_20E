@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+}
+
+a {
+    padding: 1em;
+    text-decoration: none;
+    /*    транзитион*/
+}
+
+a:hover,
+a.active {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: monospace;
+    color: #606060;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav {
+    display: block;
+    width: 660px;
+    margin: 15px auto;
+}
+
+
+/*Первый блок*/
+.display-inline li {
+    display: inline;
+}
+
+.display-inline ul {
+    padding: 1em 0;
+    background-color: #ECDAD6;
+}
+
+.display-inline a {
+    background: rgba(177, 152, 145, 0.3);
+    border-right: 1px solid #b19891;
+    color: #695753;
+}
+
+.display-inline a:hover,
+.display-inline a.active {
+    background: #b19891;
+}
+
+/*Второй блок*/
+
+.float-left li {
+    float: left;
+}
+
+.float-left ul {
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+}
+
+.float-left a {
+    display: block;
+    background: rgba(173, 192, 206, .3);
+    border-right: 1px solid #ADC0CE;
+    color: #29838C;
+}
+
+.float-left a:hover,
+.float-left a.active {
+    background: #ADC0CE;
+}
+
+/*третий блок*/
+
+.display-inline-block li {
+    display: inline-block;
+}
+
+.display-inline-block ul {
+    padding: 0;
+    background: #E4EFD1;
+}
+
+.display-inline-block a {
+    display: block;
+    color: #74924C;
+    border-right: 1px solid #BAD78B;
+    background: rgba(186, 215, 139, .3);
+}
+
+.display-inline-block a:hover,
+.display-inline-block a.active {
+    background: #BAD78B;
+}
+
+/*четвёртый блок*/
+
+.display-flex ul {
+    display: flex;
+    background: #FFD7A7;
+    padding-left: 0;
+}
+
+.display-flex a {
+    display: block;
+    color: #9B4222;
+    border-right: 1px solid #FFAB51;
+    background: rgba(255, 171, 81, .3);
+}
+
+.display-flex a:hover,
+.display-flex a.active{
+    background: #FFAB51;
+}
