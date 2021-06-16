@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #f0cfed;
+    /*https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry*/
+    background: linear-gradient(to right, #6d481e, #401b0d);
+    height: 70vh;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
