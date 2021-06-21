@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="true" name="HandheldFriendly"/>
+	<meta content="width" name="MobileOptimized"/>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	
+	<title>Title</title>
+	<style>
+		* {
+			/*box-sizing: border-box;*/
+		}
+		
+		body {
+			display: grid;
+			/*grid-template-columns: 20%  60% 20%;*/
+			/*grid-template-columns: 20vw  60vw 20vw;*/
+			/*grid-template-columns: 200px  400px 20px;*/
+			/*grid-template-columns: 10rem  30rem 10rem;*/
+			grid-template-columns: 2fr  14fr 2fr;
+			grid-template-rows: 10vh 7vh 50vh 10vh;
+			grid-gap: 20px;
+			font-size: 3rem;
+		}
+		
+		body > * {
+			text-align: center;
+			border: 1px solid gold;
+		}
+		
+		header {
+			grid-row: 1;
+			grid-column: span 3;
+			background-color: brown;
+			color: white;
+		}
+		
+		nav {
+			grid-row: 2;
+			grid-column: 1/span 3;
+			font-size: 1.5rem;
+		}
+		
+		footer {
+			grid-row: 4;
+			grid-column: span 3;
+			background-color: #333333;
+			color: white;
+		}
+		
+		aside {
+			grid-row: 3;
+			background-color: #9abdec;
+		}
+		
+		.left {
+			order: -1;
+		}
+		
+		.right {
+			order: 1;
+		}
+		
+		main {
+			grid-row: 3;
+			order: 0;
+		}
+	span{
+		border: 1px solid green;
+	}
+	</style>
+
+</head>
+<body>
+	<header class="header">Окна и двери</header>
+	<nav class="menu">
+		<!--		<span>Главная</span>-->
+		<!--		<span>Новости</span>-->
+		<!--		<span>Каталог</span>-->
+		<!--		<span>О нас</span>-->
+		<!--		<span>Контакты</span>-->
+		<span>Деревянные окна</span>
+		<span>Пластиковые окна</span>
+		<span>Межкомнатные двери</span>
+		<span>Круглые окна</span>
+		<span>Остекленение балконов</span>
+	
+	</nav>
+	<main class="content">content</main>
+	<aside class="left">		<span>Калькулятор стоимости</span>
+		<span>Заказать оценку</span>
+		<span>Доставка и Монтаж</span>
+		<span>Гарантия и качество</span></aside>
+	<aside class="right">right</aside>
+	<footer class="footer">footer</footer>
+</body>
+</html>

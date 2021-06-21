@@ -26,4 +26,26 @@
 
 1. XML and SVG
 2. object-fit: cover;
+3. Снипет, сео, вебмастер.
+
+
+function someName(currency, money){
+
+Курс к доллару
+CanDollar  -> $
+Bel rub -> $
+Гривна -> $
+Рос рубль -> $
+Евро -> $
+
+return $
+}
+
+
+
+
+
+
+
+
 
