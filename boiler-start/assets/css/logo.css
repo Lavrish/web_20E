@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.portrait {
+    position: relative;
+    width: 90%;
+    height: 80vh;
+}
+
+.portrait img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portrait img.texture {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+body {
+    margin: 20px auto;
+    display: flex;
+    gap: 30px;
+    width: 90vw;
+}
+
+picture img {
+    width: 300px;
+}

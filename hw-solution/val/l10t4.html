@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="l10t4.css">
+    <title>Task 4</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Make a reservation</h1>
+        <label for="email" class="email"> E-mail
+            <input type="text" name="email" id="email" placeholder="Enter a valid email address">
+        </label>
+             
+        <label for="clientName" class="clientName"> Name
+            <input type="text" name="clientName" id="clientName" placeholder="Enter your Name">
+        </label>
+        <select name="items" id="items">
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+        </select>
+        <label for="date" class="date"> Date
+            <input type="date" name="date" id="date">
+        </label>
+        <label for="phone" class="phone"> Phone
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone (e.g. +14155552675)">
+        </label>
+        <label for="message"> Message
+            <textarea name="message" id="message" rows="6" placeholder="Enter your message"></textarea>
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

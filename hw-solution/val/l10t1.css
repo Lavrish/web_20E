@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ceefe6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border-top: 3px solid #123724;
+  width: 40%;
+  margin: 5px auto;
+  padding: 15px 60px;
+}
+
+p,
+div label {
+  color: #717171;
+}
+
+div label a {
+  color: #505855;
+}
+
+input,
+textarea {
+  background-color: #ebebeb;
+  color: #717171;
+  border: none;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #123724;
+  color: white;
+  width: 90%;
+  align-self: center;
+}

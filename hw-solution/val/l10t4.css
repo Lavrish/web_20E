@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap");
+
+body {
+  background-color: black;
+  color: #f9da9b;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  text-align: right;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: 700;
+}
+
+select {
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  background-color: #f9da9b;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: black;
+  border: 1px solid #f9da9b;
+  justify-self: flex-start;
+  color: #f9da9b;
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .email,
+  .date,
+  .clientName,
+  .phone {
+    width: 49%;
+  }
+
+  .email,
+  .date {
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  form {
+    width: auto;
+    margin: 5% 3% 5% 30%;
+  }
+}

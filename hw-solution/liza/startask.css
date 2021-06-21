@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 9vh;
+    background-color: #E9E3DB;
+    text-align: center;
+}
+.header img {
+    width: 60px;
+    height: 60px;
+}
+
+.top, .bottom{
+    width: 70vw;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+div.top img{
+    height: 60vh;
+}
+.top .self{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.description {
+    padding: 2em;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: justify;
+}
+span {
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+.intro {
+    font-size: 1.4em;
+}
+
+.description p {
+    padding-bottom: 1em;
+    font-size: 1.3rem;
+}
+
+.middle {
+    background-color: #E9E3DB;
+    text-align: center;
+    padding: 1.5em;
+}
+.middle p {
+    font-size: 2em;
+    
+}
+.bottom h4{
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.bottom .russian img,
+.bottom .german img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.bottom .img-descr {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+.bottom ul {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #E9E3DB;
+    
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    align-items: center;
+    padding: 1em;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        height: 200vh;
+    }
+    .top {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top .description {
+        width: 100%;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .description {
+        align-self: center;
+        width: 40vw;
+    }
+    .middle {
+        margin-bottom: 2em;
+    }
+    .middle p {
+        font-size: 2.3em;
+         }
+
+         .bottom h4 {
+            text-align: center;
+         }
+    .bottom .russian img,
+.bottom .german img {
+    width: 100%;
+}
+    .russian, .german {
+        height:140vh;
+    }
+    .footer ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        margin: 0 auto;
+        font-weight: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    div.top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .russian, .german {
+        height:120vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div.russian, .german {
+        height:110vh;
+    }
+}
