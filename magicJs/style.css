@@ -1,0 +1,15 @@
+button {
+    padding: 8px 0;
+    width: 200px;
+}
+
+#demo {
+    border: solid 1px red;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
