@@ -30,9 +30,9 @@ The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic t
 Examples
 
 ```
-makeTags('i', 'Yay') → Yay
-makeTags('i', 'Hello') → Hello
-makeTags('cite', 'Yay') → Yay
+makeTags('i', 'Yay') → <i>Yay</i>
+makeTags('i', 'Hello') → <i>Hello</i>
+makeTags('cite', 'Yay') → <cite>Yay</cite>
 ```
 
 ### 04 makeOutWord
