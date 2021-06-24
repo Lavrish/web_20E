@@ -4,14 +4,17 @@ body {
 }
 
 body {
-    color: #f0cfed;
+    color: #ec1c3d;
     /*https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry*/
-    background: linear-gradient(to right, #6d481e, #401b0d);
+    background: linear-gradient(to right, #e8e3ad, #f5f5b4);
     height: 70vh;
     font-size: 3.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    text-shadow: 16px 10px 5px rgba(201, 130, 130, 0.69);
 }
 
