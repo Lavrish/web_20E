@@ -42,8 +42,8 @@ Given an "out" string length 4, such as "<<>>", and a word, return a new string 
 Examples
 
 ```
-makeOutWord('<<>>', 'Yay') → <>
-makeOutWord('<<>>', 'WooHoo') → <>
+makeOutWord('<<>>', 'Yay') → <Yay>
+makeOutWord('<<>>', 'WooHoo') → <WooHoo>
 makeOutWord('[[]]', 'word') → [[word]]
 ```
 
@@ -78,9 +78,9 @@ Given a string of even length, return the first half. So the string "WooHoo" yie
 Examples
 
 ```
-firstHalf('WooHoo') → WooHoo
-firstHalf('HelloThere') → HelloThere
-firstHalf('abcdefg') → abcdefg
+firstHalf('WooHoo') → Woo
+firstHalf('HelloThere') → Hello
+firstHalf('abcdefg') → abc
 ```
 
 ###  08 withoutEnd
