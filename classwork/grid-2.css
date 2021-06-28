@@ -1,0 +1,91 @@
+body {
+    border: 1px red solid;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "first first first first"
+    "second third third fifth"
+    "second fourth fourth fifth"
+    "second fourth fourth fifth"
+    "second fourth fourth fifth"
+    "var6 var6 var6 var6"
+    "var7 var7 var8 var8"
+    "var9 var10 var11 var12"
+    "var13 var14 var15 var15"
+    "var16 var16 var16 var16";
+    padding: 1rem;
+    background-color: #f1e8ed;
+}
+
+.item {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    min-height: 100px;
+}
+
+.item1 {
+    grid-area: first;
+}
+
+.item2 {
+    grid-area: second;
+}
+
+.item3 {
+    grid-area: third;
+}
+
+.item4 {
+    grid-area: fourth;
+}
+
+.item5 {
+    grid-area: fifth;
+}
+
+.item6 {
+    grid-area: var6;
+}
+
+.item7 {
+    grid-area: var7;
+}
+
+.item8 {
+    grid-area: var8;
+}
+
+.item9 {
+    grid-area: var9;
+}
+
+.item10 {
+    grid-area: var10;
+}
+
+.item11 {
+    grid-area: var11;
+}
+
+.item12 {
+    grid-area: var12;
+}
+
+.item13 {
+    grid-area: var13;
+}
+
+.item14 {
+    grid-area: var14;
+}
+
+.item15 {
+    grid-area: var15;
+}
+
+.item16 {
+    grid-area: var16;
+}
