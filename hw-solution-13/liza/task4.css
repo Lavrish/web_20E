@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+}
+.wrapper {
+    width: 70vw;
+    height: 120vh;
+    margin: 2em auto;
+}
+
+.form {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+h1 {
+    color: #F9DA9B;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+}
+input {
+    height: 3.5em;
+    width: 100%;
+}
+.message textarea {
+    width: 100%;
+}
+input, textarea {
+    background-color: #F9DA9B;
+    border: none;
+}
+input, textarea::placeholder {
+    padding: 1em;
+    font-size: 16px;
+}
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9DA9B;
+}
+
+.item-1 input::placeholder {
+    color: black;
+}
+.form__btn {
+    width: 25vw;
+    height: 2.8em;
+    border: 2px solid #F9DA9B;
+    background-color: black;
+    color: #F9DA9B;
+    font-size: 18px;
+    padding: 0em;
+
+}
+
+.footer {
+    height: 10vh;
+    background-color: #333333;
+}
+.footer p {
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    .wrapper {
+        width: 90vw;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0px;
+        
+    }
+    h1 {
+        text-align: end;
+    }
+    .form__big {
+        width: 49%;
+    }
+    .form__big input {
+        width: 100%;
+    }
+    
+    div.item-1 {
+       width: 100%;
+    }
+    div.item-1 input {
+        width: 100%;
+    }
+    input {
+        width: 20em;
+    }
+    .message {
+        width: 100%;
+    }
+
+    .message textarea {
+        width: 100%;
+    }
+}

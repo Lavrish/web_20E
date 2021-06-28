@@ -1,0 +1,75 @@
+body {
+  color: #321325;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+
+.left-form,
+.right-form {
+  width: 45%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 2px;
+  padding: 5px;
+  border: 2px solid #464e47;
+  background-color: #fff9ec;
+  flex-grow: 1;
+}
+
+.more-in-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.more {
+  background-color: #e0ddcf;
+  border: 2px solid #464e47;
+  padding: 3px 7px;
+  font-weight: 900;
+}
+
+.deposit-label {
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.deposit-checkbox {
+  flex-grow: 0;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #464e47;
+  color: #fff9ec;
+}
+
+@media screen and (max-width: 820px) {
+  .left-form,
+  .right-form {
+    width: 100%;
+  }
+}

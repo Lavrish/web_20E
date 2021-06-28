@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Калькулятор личного бюджета</h1>
+    <form action="#" class="form left-form">
+        <label for="monthlyIncome"> Месячный доход *
+            <input type="text" name="monthlyIncome" id="monthlyIncome" placeholder="Сумма">
+        </label>
+        <div class="more-in-line additionalIncome">
+            <label for="additionalIncomeName"> Дополнительный доход
+                <input type="text" name="additionalIncomeName" id="additionalIncomeName" placeholder="Сумма">
+            </label>
+            <input type="text" name="additionalIncomeAmount" id="additionalIncomeAmount" placeholder="Название">
+            <div class="more">+</div>
+        </div>
+        <div class="more-in-line possibleIncome">
+            <label for="possibleIncomeName"> Возможный доход
+                <input type="text" name="possibleIncomeName" id="possibleIncomeName" placeholder="Название">
+            </label>
+            <input type="text" name="possibleIncomeAmount" id="possibleIncomeAmount" placeholder="Сумма">
+        </div>
+        <div class="more-in-line compulsoryExpenses">
+            <label for="compulsoryExpensesName">Обязательные расходы
+                <input type="text" name="compulsoryExpensesName" id="compulsoryExpensesName" placeholder="Название">
+            </label>
+            <input type="text" name="compulsoryExpensesAmount" id="compulsoryExpensesAmount" placeholder="Сумма">
+        <div class="more">+</div>
+        </div>
+        <label for="possibleExpenses">Возможные расходы
+            <input type="text" name="possibleExpenses" id="possibleExpenses" placeholder="Название">
+        </label>
+        <label for="deposit" class="deposit-label">
+            <input type="checkbox" name="deposit" id="deposit" class="deposit-checkbox"> Депозит
+        </label>
+        <label for="goal">Цель
+            <input type="text" name="goal" id="goal" placeholder="Сумма">
+        </label>
+        <label for="period">Период расчета
+            <input type="range" name="period" id="period">
+        </label>
+    </form>
+    <form action="#" class="form right-form">
+        <label for="income"> Доход за месяц
+            <input type="text" name="income" id="income">
+        </label>
+        <label for="dailyAmount">Дневной бюджет
+            <input type="text" name="dailyAmount" id="dailyAmount">
+        </label>
+        <label for="monthlyExpenses">Расход за месяц
+            <input type="text" name="monthlyExpenses" id="monthlyExpenses">
+        </label>
+        <label for="listPossibleIncomes">Возможные доходы
+            <input type="text" name="listPossibleIncomes" id="listPossibleIncomes">
+        </label>
+        <label for="listPossibleExpenses">Возможные расходы
+            <input type="text" name="listPossibleExpenses" id="listPossibleExpenses">
+        </label>
+        <label for="savings">Накопления за период
+            <input type="text" name="savings" id="savings">
+        </label>
+        <label for="requiredPeriod">Срок достижения цели в месяцах
+            <input type="text" name="requiredPeriod" id="requiredPeriod">
+        </label>
+        <input type="submit" value="Рассчитать">
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="true" name="HandheldFriendly"/>
+	<meta content="width" name="MobileOptimized"/>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<link rel="stylesheet" href="task4.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Make a reservation</h1>
+		<form class='form' action="#">
+			<div class='form__big'>
+				<p><label for="form__email">E-mail</label></p>
+				<input type="text" id='form__email' placeholder='Enter a valid email address'>
+			</div>
+			<div class='form__big'>
+				<p><label for="form__name">Name</label></p>
+				<input type="text" id='form__name' placeholder='Enter your Name'>
+			</div>
+			<div class='item-1'>
+				<input type="text" id='form__item' placeholder='Item 1'>
+			
+			</div>
+			<div class='form__big'>
+				<p><label for="form__date">Date</label></p>
+				<input type="date" id='form__date'>
+			</div>
+			<div class='form__big'>
+				<p><label for="form__phone">Phone</label></p>
+				<input type="text" id='form__phone' placeholder='Enter your phone (e.g. +14155552675)'>
+			</div>
+			<div class='message'>
+				<p><label for="form__text">Message</label></p>
+				
+				<textarea name="form__text" id="form__text" cols="30" rows="10"
+									placeholder='Enter your message'></textarea>
+			</div>
+			<input class='form__btn' type="submit" value='Submit' id='form__btn'>
+		</form>
+	</div>
+	<div class="footer">
+		<p>Template created with Nicepage.</p>
+	</div>
+</body>
+
+</html>
