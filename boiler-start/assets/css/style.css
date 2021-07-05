@@ -4,9 +4,9 @@ body {
 }
 
 body {
-    color: #f0cfed;
+    color: #333;
     /*https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry*/
-    background: linear-gradient(to right, #6d481e, #401b0d);
+    background: linear-gradient(to right, #dceed4, #a8e88f);
     height: 70vh;
     font-size: 3.5rem;
     display: flex;
