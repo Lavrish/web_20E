@@ -30,3 +30,5 @@
 1. [Why does typeof NaN return 'number'?](https://stackoverflow.com/questions/2801601/why-does-typeof-nan-return-number)
 2. [TypeOf](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof)
 3. [Сколько будет !+[]+[]+![]?](https://habr.com/ru/company/ruvds/blog/347866/)
+4. http://www.pythontutor.com/visualize.html#mode=edit
+5. PhPStorm, Idea, WebStorm, jetbrains
