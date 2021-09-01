@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding-top: 200px;
+        }
+        .hidden, .form.hidden {
+            display: none;
+        }
+        .error {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid red;
+            background-color: #f3d2d2;
+            color: red;
+            font-weight: 900;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hello {
+            width: 80%;
+            margin: 0 auto;
+            font-weight: 900;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .form {
+            width: 40%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input, button {
+            font-size: 24px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="error hidden">Где твое имя???</div>
+<div class="hello hidden">Hello, <span></span></div>
+
+<div class="form">
+    <input type="text" id="firstName">
+    <button type="button" id="sayHello">Say Hello</button>
+</div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
